@@ -1,0 +1,16 @@
+json format
+{
+  "email": "tahreemnoman28@gmail.com",
+  "password": "123456",
+  "full_name": "David Khan",
+  "company_name": "TaskMaster",
+  "role": "sales_person",
+  "phone": "+923001234567"
+}
+
+login input
+
+{
+  "email": "tahreemnoman28@gmail.com",
+  "password": "123456"
+}

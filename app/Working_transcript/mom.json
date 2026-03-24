@@ -1,0 +1,46 @@
+{
+  "meeting_topic": "Demo of TaskMaster Pro",
+  "meeting_summary": "David from TaskMaster presented a demo of the TaskMaster Pro software to Sarah from ABC Company. The discussion covered the software's core features for task tracking, file attachments, reminders, and reporting. Pricing, trial options, and support packages were reviewed. Sarah expressed interest in the Pro plan with phone support and will consult her boss. Action items were assigned for David to send detailed information and for Sarah's team to begin the trial.",
+  "agenda_items": [
+    {
+      "topic": "Software Overview",
+      "discussion": "David introduced TaskMaster Pro as a tool for tracking team work, replacing current methods like email and Excel. Core features like task creation, assignment, and deadline setting were explained.",
+      "decision": "Not specified"
+    },
+    {
+      "topic": "Feature Details",
+      "discussion": "Specific features were discussed, including file attachments (up to 100MB), automatic email reminders, and SMS reminders (at extra cost). The automatic weekly PDF reporting feature was highlighted as a key requirement.",
+      "decision": "Not specified"
+    },
+    {
+      "topic": "Pricing and Trial",
+      "discussion": "Pricing for Basic and Pro plans was presented. A 10-day trial for 15 users was offered. Sarah indicated a need for the Pro plan features but expressed concern over the $150 price. A discounted first-month offer of $120 was proposed, contingent on a decision within two weeks.",
+      "decision": "ABC Company will proceed with a 10-day trial."
+    },
+    {
+      "topic": "Support and Training",
+      "discussion": "Support options (free email vs. paid phone support) and training options (free videos vs. paid live sessions) were discussed. Sarah confirmed phone support is required and that video training is sufficient for now.",
+      "decision": "Phone support will be included in the final package. Video training will be used initially."
+    }
+  ],
+  "decisions": [
+    "ABC Company will proceed with a 10-day trial of TaskMaster Pro.",
+    "Phone support will be included in the final package.",
+    "Video training will be used initially."
+  ],
+  "action_items": [
+    {
+      "task": "Send trial access, detailed pricing, and phone support information.",
+      "owner": "David",
+      "deadline": "Today"
+    },
+    {
+      "task": "Test the software with the team.",
+      "owner": "Sarah",
+      "deadline": "This week"
+    }
+  ],
+  "open_points": [
+    "Final decision on purchasing the Pro plan after the trial, pending approval from Sarah's boss."
+  ]
+}

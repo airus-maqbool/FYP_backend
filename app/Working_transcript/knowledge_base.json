@@ -1,0 +1,197 @@
+{
+  "product_name": "TaskMaster Pro",
+  "tagline": "Smart Team Management Software for Modern Businesses",
+  "company": "TaskMaster Inc.",
+
+  "plans": {
+    "basic": {
+      "name": "Basic Plan",
+      "price": "$100/month",
+      "users": "Up to 20 users",
+      "features": [
+        "Task creation and assignment",
+        "Deadline tracking",
+        "File attachments up to 100MB",
+        "Email reminders",
+        "Weekly PDF reports every Monday",
+        "Email support"
+      ]
+    },
+    "pro": {
+      "name": "Pro Plan",
+      "price": "$150/month",
+      "users": "Up to 50 users",
+      "features": [
+        "Everything in Basic",
+        "SMS reminders",
+        "Advanced reporting and analytics",
+        "Custom report scheduling",
+        "Priority email support",
+        "Phone support"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise Plan",
+      "price": "Custom pricing",
+      "users": "Unlimited users",
+      "features": [
+        "Everything in Pro",
+        "Dedicated account manager",
+        "Custom integrations",
+        "On-premise deployment option",
+        "SLA guarantee",
+        "24/7 support"
+      ]
+    }
+  },
+
+  "features": {
+    "task_management": {
+      "description": "Create tasks, assign to team members, set deadlines and priorities",
+      "details": [
+        "Tasks can be assigned to one or multiple people",
+        "Set priority levels: low, medium, high, critical",
+        "Add subtasks and checklists inside each task",
+        "Track task progress with status updates"
+      ]
+    },
+    "file_attachments": {
+      "description": "Attach any file type to tasks",
+      "details": [
+        "Supports documents, images, spreadsheets, PDFs",
+        "Up to 100MB per file",
+        "Files are stored securely in the cloud"
+      ]
+    },
+    "reminders": {
+      "description": "Automated reminders so nothing is missed",
+      "details": [
+        "Email reminders are free and included in all plans",
+        "SMS reminders available in Pro and Enterprise plans",
+        "SMS reminders cost $50/month extra on Basic plan",
+        "Reminders sent 24 hours and 1 hour before deadline"
+      ]
+    },
+    "reporting": {
+      "description": "Automated reports to keep management informed",
+      "details": [
+        "Weekly PDF report sent every Monday morning",
+        "Reports include task completion rates, overdue tasks, team performance",
+        "Advanced analytics available in Pro and Enterprise plans",
+        "Custom report scheduling available in Pro and Enterprise"
+      ]
+    },
+    "collaboration": {
+      "description": "Team collaboration tools built into every task",
+      "details": [
+        "Comment on tasks in real time",
+        "Tag team members in comments",
+        "Activity log shows full history of every task",
+        "Team dashboard shows everyone's workload"
+      ]
+    },
+    "integrations": {
+      "description": "Connect TaskMaster Pro with tools your team already uses",
+      "details": [
+        "Google Workspace (Gmail, Drive, Calendar)",
+        "Microsoft 365 (Outlook, OneDrive, Teams)",
+        "Slack notifications",
+        "Zapier for custom automations",
+        "REST API available for custom integrations (Enterprise only)"
+      ]
+    }
+  },
+
+  "trial": {
+    "standard": "7 days free trial for up to 10 users",
+    "extension": "Can be extended to 10 days on request",
+    "conditions": [
+      "No credit card required",
+      "Full access to Pro features during trial",
+      "Trial can be extended once per company"
+    ]
+  },
+
+  "support": {
+    "email": {
+      "availability": "All plans",
+      "cost": "Free",
+      "response_time": "Within 24 hours"
+    },
+    "phone": {
+      "availability": "Pro and Enterprise plans",
+      "cost": "$30/month extra on Basic plan",
+      "response_time": "Within 2 hours during business hours"
+    },
+    "dedicated_manager": {
+      "availability": "Enterprise plan only",
+      "cost": "Included in Enterprise pricing"
+    }
+  },
+
+  "training": {
+    "video_tutorials": {
+      "cost": "Free for all plans",
+      "details": "Full library of step-by-step video tutorials covering all features"
+    },
+    "live_training": {
+      "cost": "$200 per session",
+      "details": "1-on-1 live training session with a TaskMaster expert, up to 2 hours"
+    },
+    "documentation": {
+      "cost": "Free",
+      "details": "Full written documentation and user guides available online"
+    }
+  },
+
+  "pricing_discounts": {
+    "first_month_discount": "First month available at $120 for new Pro plan customers",
+    "annual_billing": "20% discount when billed annually",
+    "minimum_discount_allowed": "$100/month — sales reps cannot go below this",
+    "decision_deadline": "Discounted offers valid for 2 weeks from the date of demo"
+  },
+
+  "security": {
+    "data_encryption": "All data encrypted at rest and in transit using AES-256",
+    "backups": "Daily automated backups with 30-day retention",
+    "compliance": "GDPR compliant",
+    "access_control": "Role-based access control — admin, manager, member roles"
+  },
+
+  "onboarding": {
+    "setup_time": "Most teams are fully set up within 1 business day",
+    "data_migration": "Free data migration assistance for teams switching from other tools",
+    "supported_imports": "Import from Excel, Trello, Asana, and CSV files"
+  },
+
+  "faqs": [
+    {
+      "question": "Can we use TaskMaster Pro on mobile?",
+      "answer": "Yes, TaskMaster Pro has native iOS and Android apps included in all plans at no extra cost."
+    },
+    {
+      "question": "What happens to our data if we cancel?",
+      "answer": "You can export all your data before cancellation. Data is retained for 30 days after cancellation then permanently deleted."
+    },
+    {
+      "question": "Can we upgrade or downgrade our plan?",
+      "answer": "Yes, you can upgrade or downgrade at any time. Changes take effect from the next billing cycle."
+    },
+    {
+      "question": "Is there a limit on storage?",
+      "answer": "Basic plan includes 50GB storage. Pro plan includes 200GB. Enterprise has unlimited storage."
+    },
+    {
+      "question": "Do you offer refunds?",
+      "answer": "We offer a full refund within 14 days of purchase if you are not satisfied."
+    },
+    {
+      "question": "Can multiple people be assigned to one task?",
+      "answer": "Yes, tasks can be assigned to multiple team members simultaneously."
+    },
+    {
+      "question": "Does TaskMaster Pro work offline?",
+      "answer": "The mobile app supports limited offline mode. Changes sync automatically when connection is restored."
+    }
+  ]
+}

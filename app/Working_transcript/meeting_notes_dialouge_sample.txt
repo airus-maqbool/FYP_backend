@@ -1,0 +1,71 @@
+Meeting: Demo of TaskMaster Pro - Team Management Software
+Date: 8/02/2026
+Meeting Type: Product Demo
+
+People:
+ David (Sales, TaskMaster), 
+ Sarah (Office Manager, ABC Company)
+
+
+Meeting dialouges:
+David: Hi Sarah. I'm here to show TaskMaster Pro. It helps teams track work.
+
+Sarah: We need that. Right now we use email and Excel.
+
+David: TaskMaster fixes that. See this screen - you create tasks here.
+
+Sarah: How does it work exactly?
+
+David: You add a task, assign to person, set deadline. Everyone sees it.
+
+Sarah: Can we attach files to tasks?
+
+David: Yes, any file - documents, images. Up to 100MB per file.
+
+Sarah: Good. What about reminders?
+
+David: Automatic reminders by email. But SMS reminders cost extra.
+
+Sarah: How much extra?
+
+David: $50 per month for SMS. Now, reporting features...
+
+Sarah: We need weekly reports for our manager.
+
+David: TaskMaster makes reports automatically. Every Monday, PDF goes to email.
+
+Sarah: Perfect. Can we try it free?
+
+David: Free trial is 10 users for 7 days. For your 15 people, I can extend to 10 days.
+
+Sarah: Okay, give us 10-day trial. What happens after trial?
+
+David: Basic plan is $100/month for 20 users. Pro plan is $150 with SMS and advanced reports.
+
+Sarah: We need the Pro features but $150 is high.
+
+David: I can give first month at $120. But you need to decide in 2 weeks.
+
+Sarah: I'll check with my boss. Now, support - if we have problem?
+
+David: Email support is free. Phone support is $30 extra per month.
+
+Sarah: We need phone support. Include it in the price.
+
+David: Okay, $150 total with phone support. I'll send you the details.
+
+Sarah: Send me everything today: trial access, prices, and phone support details.
+
+David: I will send all three things today. Please test with your team.
+
+Sarah: We will test this week. Also, can you train us?
+
+David: Free training video is available. Live training is $200.
+
+Sarah: Video is enough for now.
+
+David: Good. So my tasks: send trial, prices, and support info today. Your task: test with team this week.
+
+Sarah: Yes. Let's talk next Friday.
+
+David: Perfect. Bye.            

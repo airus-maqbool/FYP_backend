@@ -1,0 +1,222 @@
+{
+  "audio_file": "fyp_meeting.mpeg",
+  "total_segments": 36,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.0,
+      "speaker": "SPEAKER_00",
+      "text": "Hi Sara, I am here to show Taskmaster Pro. It helps teams track work."
+    },
+    {
+      "start": 7.0,
+      "end": 10.0,
+      "speaker": "SPEAKER_00",
+      "text": "We need that right now. We use email and Excel."
+    },
+    {
+      "start": 10.0,
+      "end": 14.0,
+      "speaker": "SPEAKER_01",
+      "text": "Okay, so Taskmaster can fix that."
+    },
+    {
+      "start": 14.0,
+      "end": 17.0,
+      "speaker": "SPEAKER_01",
+      "text": "See this screen, you create tasks here."
+    },
+    {
+      "start": 17.0,
+      "end": 19.0,
+      "speaker": "SPEAKER_01",
+      "text": "How does it work exactly?"
+    },
+    {
+      "start": 19.0,
+      "end": 25.0,
+      "speaker": "SPEAKER_00",
+      "text": "Basically, you add a task assigned to person, set deadlines, everyone sees it."
+    },
+    {
+      "start": 25.0,
+      "end": 31.0,
+      "speaker": "SPEAKER_00",
+      "text": "Can we attach files to Taskmaster Pro?"
+    },
+    {
+      "start": 31.0,
+      "end": 37.0,
+      "speaker": "SPEAKER_01",
+      "text": "Yes, sure. Any file documents images, it's up to 100 MB per file."
+    },
+    {
+      "start": 37.0,
+      "end": 40.0,
+      "speaker": "SPEAKER_01",
+      "text": "Good. What about reminders?"
+    },
+    {
+      "start": 40.0,
+      "end": 47.0,
+      "speaker": "SPEAKER_00",
+      "text": "So, it allows automatic reminders by email, but SMS reminders cost extra."
+    },
+    {
+      "start": 47.0,
+      "end": 49.0,
+      "speaker": "SPEAKER_00",
+      "text": "How much extra?"
+    },
+    {
+      "start": 49.0,
+      "end": 56.0,
+      "speaker": "SPEAKER_01",
+      "text": "It will be about $50 per month for SMS. Now reporting features."
+    },
+    {
+      "start": 56.0,
+      "end": 61.0,
+      "speaker": "SPEAKER_01",
+      "text": "We need weekly reports for our manager."
+    },
+    {
+      "start": 61.0,
+      "end": 67.0,
+      "speaker": "SPEAKER_00",
+      "text": "Okay, so Taskmaster makes reports automatically every Monday, PDF goes to the email."
+    },
+    {
+      "start": 67.0,
+      "end": 70.0,
+      "speaker": "SPEAKER_00",
+      "text": "Perfect. Can we try it for free?"
+    },
+    {
+      "start": 70.0,
+      "end": 77.0,
+      "speaker": "SPEAKER_01",
+      "text": "Our free trial is 10 users for 7 days. For your 15 people, I can extend to 10 days."
+    },
+    {
+      "start": 77.0,
+      "end": 81.0,
+      "speaker": "SPEAKER_01",
+      "text": "Okay, give us 10 day trial. What happens after trial?"
+    },
+    {
+      "start": 81.0,
+      "end": 87.0,
+      "speaker": "SPEAKER_00",
+      "text": "Basic plan is $100 per month for 20 users."
+    },
+    {
+      "start": 87.0,
+      "end": 93.0,
+      "speaker": "SPEAKER_00",
+      "text": "Pro plan is $150 with SMS and advanced reports."
+    },
+    {
+      "start": 93.0,
+      "end": 98.0,
+      "speaker": "SPEAKER_01",
+      "text": "We need the pro features, but $150 is high."
+    },
+    {
+      "start": 98.0,
+      "end": 106.0,
+      "speaker": "SPEAKER_00",
+      "text": "Okay, so I can give first month at $120, but you need to decide in 2 weeks."
+    },
+    {
+      "start": 106.0,
+      "end": 112.0,
+      "speaker": "SPEAKER_00",
+      "text": "I will check with my boss, no sport if we have a problem."
+    },
+    {
+      "start": 112.0,
+      "end": 114.0,
+      "speaker": "SPEAKER_01",
+      "text": "We need phone..."
+    },
+    {
+      "start": 114.0,
+      "end": 120.0,
+      "speaker": "SPEAKER_01",
+      "text": "Email sport is free. Phone sport is $30 extra per month."
+    },
+    {
+      "start": 120.0,
+      "end": 125.0,
+      "speaker": "SPEAKER_00",
+      "text": "We need phone sport, including in price."
+    },
+    {
+      "start": 125.0,
+      "end": 132.0,
+      "speaker": "SPEAKER_00",
+      "text": "Okay, $150 total with phone sport, I shall send you the details."
+    },
+    {
+      "start": 132.0,
+      "end": 138.0,
+      "speaker": "SPEAKER_01",
+      "text": "Send me everything today, trial, access, price and phone sport details."
+    },
+    {
+      "start": 138.0,
+      "end": 143.0,
+      "speaker": "SPEAKER_00",
+      "text": "Okay, I will send 3 things today. Please test with your team."
+    },
+    {
+      "start": 143.0,
+      "end": 147.0,
+      "speaker": "SPEAKER_00",
+      "text": "Who will test this week? Also, can you train us?"
+    },
+    {
+      "start": 147.0,
+      "end": 154.0,
+      "speaker": "SPEAKER_01",
+      "text": "Yes, actually free training video is available, but live training is $200."
+    },
+    {
+      "start": 154.0,
+      "end": 156.0,
+      "speaker": "SPEAKER_01",
+      "text": "Video is in a funnel."
+    },
+    {
+      "start": 156.0,
+      "end": 159.0,
+      "speaker": "SPEAKER_01",
+      "text": "Okay, so good. My tasks are..."
+    },
+    {
+      "start": 159.0,
+      "end": 166.0,
+      "speaker": "SPEAKER_00",
+      "text": "I have these tasks to do, send trial prices and sport info today."
+    },
+    {
+      "start": 166.0,
+      "end": 169.0,
+      "speaker": "SPEAKER_00",
+      "text": "Your tasks are test with team with this week."
+    },
+    {
+      "start": 169.0,
+      "end": 172.0,
+      "speaker": "SPEAKER_01",
+      "text": "Yes, let's stop next Friday."
+    },
+    {
+      "start": 172.0,
+      "end": 174.0,
+      "speaker": "SPEAKER_01",
+      "text": "Okay, perfect. Bye."
+    }
+  ]
+}

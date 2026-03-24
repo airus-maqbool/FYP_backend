@@ -1,0 +1,62 @@
+Meeting: Demo of "TaskMaster Pro" - Team Management Software
+Date: 8/02/2026
+Meeting Type: Product Demo
+
+People:
+- David (Sales, TaskMaster)
+- Sarah (Office Manager, Gemma Company)
+
+Discussion Summary:
+David demonstrated TaskMaster Pro and explained how it helps teams track work.
+Sarah explained that ABC Company currently uses email and Excel for task tracking.
+
+David showed how tasks can be created, assigned to team members, and given deadlines.
+He confirmed that files such as documents and images can be attached to tasks, with a limit of 100MB per file.
+
+David explained that automatic email reminders are included, while SMS reminders cost an additional $50 per month.
+
+Sarah requested weekly reports for management.
+David confirmed that TaskMaster Pro automatically sends weekly PDF reports by email every Monday.
+
+David offered a free trial of TaskMaster Pro for 10 users for 7 days.
+For ABC Company’s team of 15 users, David extended the trial period to 10 days.
+
+Pricing options were discussed:
+- Basic plan: $100/month for up to 20 users
+- Pro plan: $150/month including SMS reminders and advanced reports
+
+Sarah expressed concern about the Pro plan price.
+David offered a discounted first month at $120, with a decision required within two weeks.
+
+Support options were discussed:
+- Email support is included
+- Phone support costs an additional $30/month
+
+David agreed to include phone support in the total price of $150 per month.
+
+Training options were discussed:
+- Free training videos are available
+- Live training costs $200
+Sarah confirmed that training videos are sufficient for now.
+
+Key Decisions:
+- ABC Company will take a 10-day free trial of TaskMaster Pro.
+- Pro plan features are required.
+- Phone support will be included.
+- Total agreed price is $150 per month including phone support.
+
+Action Items:
+- David to send trial access details today.
+- David to send pricing details today.
+- David to send phone support information today.
+- Sarah and her team to test TaskMaster Pro during the trial period.
+
+Pricing Summary:
+- Pro Plan: $150/month
+- Includes SMS reminders and phone support
+- First month discounted offer of $120 discussed (decision pending)
+
+Next Steps / Follow-up:
+- Sarah will review the software with her manager.
+- Decision on purchase to be made within two weeks.
+- Follow-up discussion scheduled for next Friday.

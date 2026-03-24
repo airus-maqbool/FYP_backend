@@ -1,0 +1,17 @@
+{
+  "meeting": "Demo of TaskMaster Pro",
+  "date": "08/02/2026",
+  "meeting_type": "Product Demo",
+  "people": [
+    {
+      "name": "David",
+      "role": "Sales",
+      "company": "TaskMaster"
+    },
+    {
+      "name": "Sarah",
+      "role": "Office Manager",
+      "company": "ABC Company"
+    }
+  ]
+}
