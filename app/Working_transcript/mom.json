@@ -1,46 +1,45 @@
 {
   "meeting_topic": "Demo of TaskMaster Pro",
-  "meeting_summary": "David from TaskMaster presented a demo of the TaskMaster Pro software to Sarah from ABC Company. The discussion covered the software's core features for task tracking, file attachments, reminders, and reporting. Pricing, trial options, and support packages were reviewed. Sarah expressed interest in the Pro plan with phone support and will consult her boss. Action items were assigned for David to send detailed information and for Sarah's team to begin the trial.",
+  "meeting_summary": "A product demo of TaskMaster Pro was conducted for ABC Company. The software's task management, file attachment, reporting, and reminder features were discussed. Pricing, a trial period, and support options were negotiated. Action items were assigned for follow-up.",
   "agenda_items": [
     {
-      "topic": "Software Overview",
-      "discussion": "David introduced TaskMaster Pro as a tool for tracking team work, replacing current methods like email and Excel. Core features like task creation, assignment, and deadline setting were explained.",
+      "topic": "TaskMaster Pro Demo",
+      "discussion": "David presented the software's capabilities for task creation, assignment, deadlines, file attachments (up to 100MB), and automatic reporting (PDF emailed weekly). Sarah confirmed the need for these features to replace their current email and Excel system.",
       "decision": "Not specified"
     },
     {
-      "topic": "Feature Details",
-      "discussion": "Specific features were discussed, including file attachments (up to 100MB), automatic email reminders, and SMS reminders (at extra cost). The automatic weekly PDF reporting feature was highlighted as a key requirement.",
-      "decision": "Not specified"
+      "topic": "Pricing and Plans",
+      "discussion": "The Basic plan ($100/month for 20 users) and Pro plan ($150/month with SMS and advanced reports) were discussed. A discounted first-month Pro plan offer of $120 was made, contingent on a decision within two weeks. A final price of $150 for the Pro plan including phone support was agreed upon.",
+      "decision": "Agreed on a final Pro plan price of $150/month including phone support, pending internal approval."
     },
     {
-      "topic": "Pricing and Trial",
-      "discussion": "Pricing for Basic and Pro plans was presented. A 10-day trial for 15 users was offered. Sarah indicated a need for the Pro plan features but expressed concern over the $150 price. A discounted first-month offer of $120 was proposed, contingent on a decision within two weeks.",
-      "decision": "ABC Company will proceed with a 10-day trial."
+      "topic": "Trial Period",
+      "discussion": "A standard 7-day trial for 10 users was offered. David extended the trial to 10 days for ABC Company's 15 people.",
+      "decision": "A 10-day trial was agreed upon."
     },
     {
       "topic": "Support and Training",
-      "discussion": "Support options (free email vs. paid phone support) and training options (free videos vs. paid live sessions) were discussed. Sarah confirmed phone support is required and that video training is sufficient for now.",
-      "decision": "Phone support will be included in the final package. Video training will be used initially."
+      "discussion": "Email support is free; SMS reminders and phone support cost extra. Free training videos are available, with live training costing $200. Sarah confirmed video training is sufficient for now.",
+      "decision": "ABC Company will use the free training videos."
     }
   ],
   "decisions": [
-    "ABC Company will proceed with a 10-day trial of TaskMaster Pro.",
-    "Phone support will be included in the final package.",
-    "Video training will be used initially."
+    "Proceed with a 10-day trial of TaskMaster Pro",
+    "The final Pro plan price, if adopted, will be $150/month including phone support"
   ],
   "action_items": [
     {
-      "task": "Send trial access, detailed pricing, and phone support information.",
+      "task": "Send trial access, pricing, and phone support details",
       "owner": "David",
       "deadline": "Today"
     },
     {
-      "task": "Test the software with the team.",
+      "task": "Test the software with the team",
       "owner": "Sarah",
       "deadline": "This week"
     }
   ],
   "open_points": [
-    "Final decision on purchasing the Pro plan after the trial, pending approval from Sarah's boss."
+    "Internal approval from Sarah's boss on the Pro plan purchase"
   ]
 }

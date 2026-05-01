@@ -11,8 +11,8 @@ Speaker B: We need that right now. We use email and Excel.
 Speaker A: Okay. So Taskmaster can fix that series screen. You create tasks here.
 Speaker B: How does it work exactly?
 Speaker A: Basically you add a task assigned to person. Set deadlines. Everyone sees it.
-Speaker B: Can we attach files to.
-Speaker A: Task? Yes, sure. Any file, documents, images. It's up to 100 MB per file.
+Speaker B: Can we attach files to
+Speaker A: task? Yes, sure. Any file, documents, images. It's up to 100 MB per file.
 Speaker B: Good. What?
 Speaker A: What?
 Speaker B: Reminders.
@@ -29,8 +29,8 @@ Speaker B: 10 day trial. What happened after trial?
 Speaker A: Basic plan is 100 per month for 20 users. Pro plan is $150 with SMS and advanced reports.
 Speaker B: We need the Pro features. But $150 is high.
 Speaker A: So. Okay. So I can give first month at 120$. But you need to decide in two weeks.
-Speaker B: I will check with my boss. No Sport. If we have any. If we have problem, we need a.
-Speaker A: Phone Email Sport is free. Phone Sport is $30 extra per month.
+Speaker B: I will check with my boss. No Sport. If we have any. If we have problem, we need a
+Speaker A: phone Email Sport is free. Phone Sport is $30 extra per month.
 Speaker B: We need phones. We need phone spot included in price.
 Speaker A: Okay. 50 50. $150 total with phone Sport. I shall send you the details.
 Speaker B: Send me everything today. Trial access price and phone support details.

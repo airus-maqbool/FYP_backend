@@ -21,8 +21,7 @@ from .ai_layer.diarization import diarize_audio, DIARIZATION_PATH
 from .ai_layer.diarization_api import diarize_audio_via_api
 from .ai_layer.pre_meeting_extractor import extract_pre_meeting_info
 from .services.meeting_compiler import compile_meeting_file
-from .ai_layer.live_meeting_assistance import process_audio_chunk
-
+from .ai_layer.live_meeting_assistance import process_transcript
 
 
 
@@ -42,7 +41,7 @@ model = whisper.load_model("small")
 # here the full transcript will be saved.. chunk wise
 TRANSCRIPT_PATH = "app/Working_transcript/full_transcript.txt"
 
-AUDIO_PATH            = r"F:\FYP\FYP_backend\uploads\fyp_meeting.mpeg"
+AUDIO_PATH            = r"D:\FYP_backend\uploads\fyp_meeting.mpeg"
 PRE_MEETING_USER_TEXT = "app/Working_transcript/pre_meeting_userText.json"
 
 
@@ -70,6 +69,8 @@ class LoginRequest(BaseModel):
 class PreMeetingRequest(BaseModel):
     text: str   # plain text meeting notes from the user
 
+class LiveAssistRequest(BaseModel):
+    text: str   # transcribed text from frontend
 
 
 
@@ -121,6 +122,7 @@ async def transcribe_audio(file: UploadFile = File(...)):
 
 @app.post("/generate-mom")
 async def generate_mom():
+    # takes speaker wise notes from diaized_api.txt, pre_meeting_notes.json and pre_meeting_userText.json , gives to llm and generate a mom save in working_transcript/mom.json and send back to frontend
     try:
         meeting_notes = load_meeting_notes()
         mom = generate_minutes_of_meeting(meeting_notes)
@@ -319,7 +321,9 @@ async def diarize_audio_endpoint(
         if os.path.exists(tmp_path):
             os.unlink(tmp_path)
 
-
+''' post meeting steps
+1. diarize audio 
+2.'''
 
 # diarization via api
 # ── add this import at the top of main.py ────────────────────────────────────
@@ -449,44 +453,49 @@ async def post_meeting_automation():
     mom = generate_minutes_of_meeting(meeting_notes)
     save_mom(mom)
 
+    print("trying to save in db")
+    response=save_meeting_to_db(mom)
+    print(response)
+
     return {
-        "status": "success",
-        "mom": mom
-    }
+            "status": "success",
+            "meeting_id": response["meeting_id"],
+            "meeting_topic": response["meeting_topic"],
+            "minutes_of_meeting": mom
+        }
+
 
 @app.post("/live-assist")
-async def live_assist(file: UploadFile = File(...)):
+async def live_assist_text(request: LiveAssistRequest):
     """
-    Receives a live audio chunk from the frontend.
-
+    Receives transcribed text from frontend (frontend already did audio → text).
+ 
     Pipeline:
-        1. Transcribe audio chunk using Whisper
-        2. Detect if transcribed text is a product-related question
-        3. If yes, extract answer from knowledge_base.json and craft response
-        4. Return transcript + answer to frontend
-
+        1. Detect if text is a product-related question (Ollama LLM call)
+        2. If yes, generate answer from knowledge_base.json (Ollama LLM call)
+        3. Return result to frontend
+ 
     Frontend receives:
         {
-            "transcript":          "what was said in the audio",
             "is_product_question": true / false,
-            "answer":              "crafted answer from knowledge base" or null
+            "answer": "crafted answer from knowledge base" or null
         }
     """
     try:
-        audio_bytes = await file.read()
-        result = process_audio_chunk(audio_bytes)
+        result = process_transcript(request.text)
         return result
-
+ 
     except RuntimeError as e:
         # ollama connection issues
         raise HTTPException(status_code=503, detail=str(e))
-
+ 
     except FileNotFoundError as e:
         # knowledge base missing
         raise HTTPException(status_code=404, detail=str(e))
-
+ 
     except Exception as e:
         raise HTTPException(
             status_code=500,
             detail=f"Live assist failed: {str(e)}"
         )
+ 

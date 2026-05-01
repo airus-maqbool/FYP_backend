@@ -76,7 +76,7 @@ def _build_compiled_text(pre: dict, dialogue: str) -> str:
 def compile_meeting_file() -> dict:
     """
     Reads pre_meeting_notes.json and diarized_output_api.txt,
-    merges them into a single compiled_meeting.txt file.
+    merges them into a single meeting_notes_dialouge.txt file.
 
     Returns:
         {
